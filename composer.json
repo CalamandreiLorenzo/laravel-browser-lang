@@ -1,0 +1,42 @@
+{
+    "name": "calamandrei-lorenzo/laravel-browser-lang",
+    "description": "Auto detect browser language with middleware.",
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^8.1|^9.0",
+        "orchestra/testbench": "^5.3",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "CalamandreiLorenzo\\LaravelBrowserLang\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "./tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CalamandreiLorenzo\\LaravelBrowserLang\\ServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "check-style": "php-cs-fixer fix --using-cache=no --diff --config=.php_cs --dry-run --ansi",
+        "fix-style": "php-cs-fixer fix --using-cache=no --config=.php_cs --ansi",
+        "test": "vendor/bin/phpunit --colors=always --testdox"
+    },
+    "scripts-descriptions": {
+        "check-style": "Run style checks (only dry run - no fixing!).",
+        "fix-style": "Run style checks and fix violations.",
+        "test": "Run all tests."
+    },
+    "license": "MIT"
+}
