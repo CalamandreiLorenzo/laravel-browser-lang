@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\App;
 /**
  * Class HeaderConversion
  * @package CalamandreiLorenzo\LaravelBrowserLang
- * @author Lorenzo Calamandrei <calamandrei.lorenzo@gmail.com>
+ * @author Lorenzo Calamandrei <calamandrei.lorenzo.work@gmail.com>
  * @github https://github.com/CalamandreiLorenzo
  */
 class HeaderConversion implements HeaderConversionInterface

@@ -9,7 +9,7 @@ use function config_path;
 
 /**
  * Class ServiceProvider.
- * @author Lorenzo Calamandrei <calamandrei.lorenzo@gmail.com>
+ * @author Lorenzo Calamandrei <calamandrei.lorenzo.work@gmail.com>
  * @github https://github.com/CalamandreiLorenzo
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider

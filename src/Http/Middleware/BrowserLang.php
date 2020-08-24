@@ -15,7 +15,7 @@ use function config;
 /**
  * Class BrowserLang
  * @package CalamandreiLorenzo\LaravelBrowserLang\Http\Middleware
- * @author Lorenzo Calamandrei <calamandrei.lorenzo@gmail.com>
+ * @author Lorenzo Calamandrei <calamandrei.lorenzo.work@gmail.com>
  * @github https://github.com/CalamandreiLorenzo
  */
 class BrowserLang

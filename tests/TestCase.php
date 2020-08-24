@@ -11,7 +11,7 @@ use Illuminate\Foundation\Application;
 /**
  * Class TestCase
  * @package Tests
- * @author Lorenzo Calamandrei <calamandrei.lorenzo@gmail.com>
+ * @author Lorenzo Calamandrei <calamandrei.lorenzo.work@gmail.com>
  * @github https://github.com/CalamandreiLorenzo
  */
 abstract class TestCase extends \Orchestra\Testbench\TestCase

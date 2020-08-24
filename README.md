@@ -40,6 +40,9 @@ $ php artisan vendor:publish --provider="CalamandreiLorenzo\\LaravelBrowserLang\
 Implement the middleware in your `App\Http\Kernel`:
 
 ```php
+
+use CalamandreiLorenzo\LaravelBrowserLang\Http\Middleware\BrowserLang;
+
 class Kernel extends HttpKernel
 {
         /**
@@ -51,7 +54,7 @@ class Kernel extends HttpKernel
          */
         protected $routeMiddleware = [
             // ...
-            'detect-language' => \CalamandreiLorenzo\LaravelBrowserLang\Http\Middleware\BrowserLang::class
+            'detect-language' => BrowserLang::class
         ];
 }
 ```
@@ -77,7 +80,7 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         // ...
-        \CalamandreiLorenzo\LaravelBrowserLang\Http\Middleware\BrowserLang::class
+        BrowserLang::class
     ];
 }
 ```

@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\App;
 /**
  * Class FeatureTest
  * @package Tests
- * @author Lorenzo Calamandrei <calamandrei.lorenzo@gmail.com>
+ * @author Lorenzo Calamandrei <calamandrei.lorenzo.work@gmail.com>
  * @github https://github.com/CalamandreiLorenzo
  */
 class FeatureTest extends TestCase
